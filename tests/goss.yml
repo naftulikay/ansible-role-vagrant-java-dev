@@ -1,0 +1,10 @@
+---
+command:
+  'which ant':
+    exit-status: 0
+  'which gradle':
+    exit-status: 0
+  'which java':
+    exit-status: 0
+  'which sbt':
+    exit-status: 0

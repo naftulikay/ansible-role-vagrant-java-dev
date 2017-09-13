@@ -1,0 +1,22 @@
+---
+galaxy_info:
+  name: vagrant-java-dev
+  version: 'v1.0.0'
+  author: Naftuli Kay
+  description: Install and configure a Java/Scala development environment in a Vagrant machine.
+
+  license: MIT
+
+  min_ansible_version: 2.2
+
+  platforms:
+    - name: EL
+      versions: [7]
+    - name: Ubuntu
+      versions: [trusty, xenial]
+
+  galaxy_tags: [java,scala,groovy,vagrant]
+
+dependencies:
+  - role: naftulikay.java-dev
+  - role: naftulikay.vagrant-base
